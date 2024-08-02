@@ -15,7 +15,7 @@ const DemoModal = ({ showDemo, closeDemo }) => {
                     <div className="modal-content">
                         <div className="screen3-modal-header">
                             <div className='modal-icon'>
-                                <img src={DemoIcon} />
+                                <img src={DemoIcon} alt='demoicon'/>
                             </div>
                             <h3 className='modal-heading'>Request Demo</h3>
                             <p className='modal-subtitle'>Enter your email address to get access to the demo video.</p>
