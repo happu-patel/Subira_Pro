@@ -15,7 +15,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg align-items-center">
                 <div className="container">
                     <a className="navbar-brand" href="#">
-                        <img src={Logo} width={'106px'} />
+                        <img src={Logo} width={'106px'} alt='logo' />
                     </a>
                     <button
                         className="navbar-toggler"
@@ -52,12 +52,12 @@ const Header = () => {
                                 </Link>
                                 <ul className="dropdown-menu">
                                     <li>
-                                        <a className="dropdown-item" href="#">
+                                        <a className="dropdown-item" href="/action">
                                             Action
                                         </a>
                                     </li>
                                     <li>
-                                        <a className="dropdown-item" href="#">
+                                        <a className="dropdown-item" href="/anothe">
                                             Another action
                                         </a>
                                     </li>
@@ -65,7 +65,7 @@ const Header = () => {
                                         <hr className="dropdown-divider" />
                                     </li>
                                     <li>
-                                        <a className="dropdown-item" href="#">
+                                        <a className="dropdown-item" href="/something">
                                             Something else here
                                         </a>
                                     </li>
@@ -96,13 +96,13 @@ const Header = () => {
                         <p>Create and issue online invoices, allowing recipients to pay immediately. Subirapro  is an easy and <br /> affordable solution for small and medium businesses to accept payments.</p>
                     </div>
                     <div className='header_buttons'>
-                        <a href='#'>
+                        <a href='demo'>
                             <button className='demo-btn'>
                                 <img src={PlayCircle} alt='playicon' className='d-icon' />
                                 <span>Request Demo</span>
                             </button>
                         </a>
-                        <a href='#'>
+                        <a href='signup'>
                             <button className="sign-btn" type="submit">
                                 Sign up
                             </button>
