@@ -39,11 +39,11 @@ const Modal = ({ showModal, closeModal }) => {
                   <div className='input-group'>
                     <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Us</button>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="/action">Action</a></li>
+                      <li><a class="dropdown-item" href="/another action">Another action</a></li>
+                      <li><a class="dropdown-item" href="/something">Something else here</a></li>
                       <li><hr class="dropdown-divider" /></li>
-                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                      <li><a class="dropdown-item" href="/separated">Separated link</a></li>
                     </ul>
                     <input type="text" aria-label="Text input with dropdown button" placeholder='+1 (555) 000-0000' />
                   </div>
