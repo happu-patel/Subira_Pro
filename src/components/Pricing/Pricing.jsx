@@ -19,7 +19,7 @@ const Pricing = () => {
                         <div className="row">
                             <div className="col-sm-12 col-lg-4 col-md-4 mb-5 mb-sm-4">
                                 <div className="popular-label">
-                                    <img src={HandArrow} />
+                                    <img src={HandArrow} alt='arrow'/>
                                     <span className="text-end">Most popular</span>
                                 </div>
                                 <div className="card shadow">
@@ -30,7 +30,7 @@ const Pricing = () => {
                                         <p className="subtext">Billed annually.</p>
                                         <div className="card-text d-flex pt-3 ps-3">
                                             <div className="check_icon">
-                                                <img src={checkIcon} />
+                                                <img src={checkIcon} alt='checkicon'/>
                                             </div>
                                             <div className="card_info">
                                                 <p>Access to all basic features</p>
@@ -38,7 +38,7 @@ const Pricing = () => {
                                         </div>
                                         <div className="card-text d-flex ps-3">
                                             <div className="check_icon">
-                                                <img src={checkIcon} />
+                                                <img src={checkIcon} alt='checkicon'/>
                                             </div>
                                             <div className="card_info">
                                                 <p>Basic reporting and analytics</p>
@@ -46,7 +46,7 @@ const Pricing = () => {
                                         </div>
                                         <div className="card-text d-flex ps-3">
                                             <div className="check_icon">
-                                                <img src={checkIcon} />
+                                                <img src={checkIcon} alt='checkicon'/>
                                             </div>
                                             <div className="card_info">
                                                 <p>Up to 10 individual users</p>
@@ -54,7 +54,7 @@ const Pricing = () => {
                                         </div>
                                         <div className="card-text d-flex ps-3">
                                             <div className="check_icon">
-                                                <img src={checkIcon} />
+                                                <img src={checkIcon} alt='checkicon'/>
                                             </div>
                                             <div className="card_info">
                                                 <p>20GB individual data each user</p>
@@ -62,7 +62,7 @@ const Pricing = () => {
                                         </div>
                                         <div className="card-text d-flex ps-3">
                                             <div className="check_icon">
-                                                <img src={checkIcon} />
+                                                <img src={checkIcon} alt='checkicon'/>
                                             </div>
                                             <div className="card_info pb-4">
                                                 <p>Basic chat and email support</p>
@@ -82,7 +82,7 @@ const Pricing = () => {
 
                                             <div className="card-text d-flex pt-3 ps-3">
                                                 <div className="check_icon">
-                                                    <img src={checkIcon} />
+                                                    <img src={checkIcon} alt='checkicon'/>
                                                 </div>
                                                 <div className="card_info">
                                                     <p>200+ integrations</p>
@@ -90,7 +90,7 @@ const Pricing = () => {
                                             </div>
                                             <div className="card-text d-flex ps-3">
                                                 <div className="check_icon">
-                                                    <img src={checkIcon} />
+                                                    <img src={checkIcon} alt='checkicon'/>
                                                 </div>
                                                 <div className="card_info">
                                                     <p>Advanced reporting and analytics</p>
@@ -98,7 +98,7 @@ const Pricing = () => {
                                             </div>
                                             <div className="card-text d-flex ps-3">
                                                 <div className="check_icon">
-                                                    <img src={checkIcon} />
+                                                    <img src={checkIcon} alt='checkicon'/>
                                                 </div>
                                                 <div className="card_info">
                                                     <p>Up to 20 individual users</p>
@@ -106,7 +106,7 @@ const Pricing = () => {
                                             </div>
                                             <div className="card-text d-flex ps-3">
                                                 <div className="check_icon">
-                                                    <img src={checkIcon} />
+                                                    <img src={checkIcon} alt='checkicon'/>
                                                 </div>
                                                 <div className="card_info">
                                                     <p>40GB individual data each user</p>
@@ -114,7 +114,7 @@ const Pricing = () => {
                                             </div>
                                             <div className="card-text d-flex ps-3">
                                                 <div className="check_icon">
-                                                    <img src={checkIcon} />
+                                                    <img src={checkIcon}alt='checkicon' />
                                                 </div>
                                                 <div className="card_info pb-4">
                                                     <p>Priority chat and email support</p>
@@ -134,7 +134,7 @@ const Pricing = () => {
                                         <div className="card-text">
                                             <div className="card-text d-flex pt-3 ps-3">
                                                 <div className="check_icon">
-                                                    <img src={checkIcon} />
+                                                    <img src={checkIcon} alt='checkicon'/>
                                                 </div>
                                                 <div className="card_info">
                                                     <p>Advanced custom fields</p>
@@ -142,7 +142,7 @@ const Pricing = () => {
                                             </div>
                                             <div className="card-text d-flex ps-3">
                                                 <div className="check_icon">
-                                                    <img src={checkIcon} />
+                                                    <img src={checkIcon} alt='checkicon'/>
                                                 </div>
                                                 <div className="card_info">
                                                     <p>Audit log and data history</p>
@@ -150,7 +150,7 @@ const Pricing = () => {
                                             </div>
                                             <div className="card-text d-flex ps-3">
                                                 <div className="check_icon">
-                                                    <img src={checkIcon} />
+                                                    <img src={checkIcon} alt='checkicon'/>
                                                 </div>
                                                 <div className="card_info">
                                                     <p>Unlimited individual users</p>
@@ -158,7 +158,7 @@ const Pricing = () => {
                                             </div>
                                             <div className="card-text d-flex ps-3">
                                                 <div className="check_icon">
-                                                    <img src={checkIcon} />
+                                                    <img src={checkIcon} alt='checkicon'/>
                                                 </div>
                                                 <div className="card_info">
                                                     <p>Unlimited individual data</p>
@@ -166,7 +166,7 @@ const Pricing = () => {
                                             </div>
                                             <div className="card-text d-flex ps-3">
                                                 <div className="check_icon">
-                                                    <img src={checkIcon} />
+                                                    <img src={checkIcon} alt='checkicon' />
                                                 </div>
                                                 <div className="card_info pb-4">
                                                     <p>Personalised+priotity service</p>
