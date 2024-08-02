@@ -1,0 +1,230 @@
+.pricing_section {
+    padding: 50px 0px;
+}
+
+.pricing_content p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #444892;
+    line-height: 24px;
+}
+
+.pricing_content h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.pricing_subtext {
+    color: #667085;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+
+.card-title {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.packge_content .row {
+    padding-top: 30px;
+}
+
+.popular-label {
+    position: absolute;
+    top: -42px;
+    right: -26px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+
+.popular-label span {
+    top: -20px;
+    right: 6px;
+    color: #444892;
+    font-size: 12px;
+    position: relative;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.popular {
+    position: relative;
+    top: 10px;
+}
+
+.col-sm-12.col-lg-4.col-md-4 {
+    position: relative;
+}
+
+.card-subtext {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #EAECF0 !important;
+    border-radius: 16px !important;
+}
+
+.subtext {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #667085;
+}
+
+.check_icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background: rgba(209, 250, 223, 1);
+    margin-right: 8px;
+    line-height: 18px;
+}
+
+.check_icon img {
+    width: 20px;
+    position: relative;
+    left: 2px;
+}
+
+.card_info {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #667085;
+}
+
+
+.btn-primary1 {
+    --bs-btn-bg: #444892 !important;
+    --bs-btn-border-color: #444892 !important;
+    --bs-btn-hover-bg: #444892 !important;
+    --bs-btn-hover-border-color: #444892 !important;
+    --bs-btn-active-bg: #444892 !important;
+    --bs-btn-active-border-color: #444892 !important;
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #444892 !important;
+    --bs-btn-disabled-border-color: #444892 !important;
+    --bs-btn-border-radius: 8px !important;
+    padding: 12px 20px 12px 20px !important;
+    text-align: center;
+    color: #fff !important;
+    width: 100% !important;
+
+}
+
+.btn-primary1:hover {
+    background-color: #fff;
+    border: 1px solid #444892;
+    color: #444892 !important;
+    font-weight: 700;
+}
+
+
+@media (max-width:1199px) {
+    .card_info {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:1024px) {
+    .card_info {
+        font-size: 13px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width:991px) {
+    .card-title {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .card_info {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .packge_content .row>div:nth-child(2) .btn-primary1 {
+        margin-top: 23px;
+
+    }
+}
+
+@media (max-width:768px) {
+    .card-title {
+        font-family: "Inter", sans-serif;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 55px;
+    }
+
+    .card_info {
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #667085;
+    }
+
+    .avtar_section {
+        padding-bottom: 22px;
+    }
+
+}
+
+@media (max-width:567px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .pricing_section {
+        padding-top: 30px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .pricing_content h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .popular-label {
+        right: 0px;
+    }
+
+    .pricing_subtext {
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width:400px) {
+
+    .popular-label {
+        right: 0px;
+    }
+
+}

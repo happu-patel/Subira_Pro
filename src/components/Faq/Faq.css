@@ -1,0 +1,225 @@
+.faq_section {
+    padding: 50px 0px;
+}
+
+.faq_content {
+    text-align: center;
+}
+
+.faq_content h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.faq_content p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #667085;
+    line-height: 30px;
+}
+
+.que_content {
+    padding: 30px 0px;
+    margin: auto;
+    width: 768px;
+    height: auto;
+}
+
+.accordion {
+    --bs-accordion-border-color: none !important;
+    --bs-accordion-border-width: none !important;
+    --bs-accordion-border-radius: none !important;
+    --bs-accordion-active-bg: none !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+}
+
+.accordion-button {
+    font-family: "Inter", sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 28px !important;
+    padding: 10px !important;
+}
+
+.accordion-header {
+    font-family: "Inter", sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 28px !important;
+    padding: 10px !important;
+}
+
+.accordion-item {
+    border-bottom: 2px solid #7d7d7d12 !important;
+}
+
+.accordion-body {
+    font-family: "Inter", sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 28px !important;
+    color: #667085 !important;
+
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: 22px !important;
+    margin-left: auto;
+    content: "";
+    background-image: url('../../assets/images/plus.png') !important;
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+
+
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../../assets/images/minus.png') !important;
+
+}
+
+.avtar_section {
+    padding-bottom: 70px;
+}
+
+.avtar_content {
+    width: auto;
+    text-align: center;
+    background-color: #F9FAFB;
+    border-radius: 16px;
+}
+
+.avtar_content .avtar1 {
+    padding-top: 40px;
+}
+
+.avtar_heading h3 {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 0px;
+    font-family: 'Inter', sans-serif;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+.avtar_heading p {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    line-height: 28px;
+    padding-bottom: 20px;
+    color: #667085;
+}
+
+.avtar_button {
+    padding: 20px 0px;
+}
+
+.button-avtar {
+    padding: 12px 20px 12px 20px;
+    border-radius: 8px;
+    background-color: #444892;
+    border-color: #444892;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid #444892;
+}
+
+.button-avtar:hover {
+    background-color: #fff;
+    border: 1px solid #444892;
+    color: #444892;
+    font-weight: 700;
+}
+
+@media (max-width:768px) {
+    .que_content {
+        width: auto;
+    }
+}
+
+@media (max-width:567px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .que_content {
+        padding: 30px 0px;
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .faq_section {
+        padding-top: 15px !important;
+    } 
+
+    .faq_content h1 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .faq_content p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .accordion-button {
+        font-size: 16px !important;
+        line-height: 21px !important;
+    }
+
+    .accordion-body {
+        font-size: 15px !important;
+        line-height: 25px !important;
+        padding-top: 0px;
+    
+}
+
+.avtar_button {
+    padding-bottom: 40px !important;
+}
+
+.avtar_section {
+    padding-bottom: 0px;
+}
+
+.faq_content {
+    text-align: left;
+}
+
+.avtar_content {
+    text-align: left;
+    padding-left: 20px;
+}
+}
+
+@media (max-width:400px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .que_content {
+        padding: 30px 0px;
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .avtar_heading p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+}
