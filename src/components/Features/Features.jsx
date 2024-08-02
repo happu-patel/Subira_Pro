@@ -114,8 +114,8 @@ const Features = () => {
                         </div>
                     </div>
                     <div className='fea_img'>
-                        <img src={Feature2} className='feature_content' />
-                        <img src={Mobile} className='iphone_img' />
+                        <img src={Feature2} className='feature_content' alt='feature' />
+                        <img src={Mobile} className='iphone_img' alt='iphone'/>
                     </div>
                 </div>
             </section>
@@ -124,7 +124,7 @@ const Features = () => {
                     <div className='row align-items-center'>
                         <div className="col-lg-4 col-md-6 col-sm-12">
                             <div className="icon">
-                                <img src={Email} width="48px" />
+                                <img src={Email} width="48px" alt='email'/>
                             </div>
                             <div className="title">
                                 <p>Send an invoice</p>
@@ -140,7 +140,7 @@ const Features = () => {
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12">
                             <div className="icon">
-                                <img src={EasyMoney} width="48px" />
+                                <img src={EasyMoney} width="48px" alt='easymoney'/>
                             </div>
                             <div className="title">
                                 <p>Keep sight of your money</p>
@@ -155,7 +155,7 @@ const Features = () => {
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12">
                             <div className="icon">
-                                <img src={Stack} width="48px" />
+                                <img src={Stack} width="48px" alt='stack'/>
                             </div>
                             <div className="title">
                                 <p>Easy online payments</p>
@@ -171,7 +171,7 @@ const Features = () => {
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12">
                             <div className="icon">
-                                <img src={Email} width="48px" />
+                                <img src={Email} width="48px" alt='email'/>
                             </div>
                             <div className="title mt-2">
                                 <p>Recover more revenue</p>
@@ -187,7 +187,7 @@ const Features = () => {
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12">
                             <div className="icon">
-                                <img src={EasyMoney} width="48px" />
+                                <img src={EasyMoney} width="48px" alt='easymoney'/>
                             </div>
                             <div className="title mt-2">
                                 <p>Quick invoicing</p>
@@ -203,7 +203,7 @@ const Features = () => {
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12">
                             <div className="icon">
-                                <img src={Stack} width="48px" />
+                                <img src={Stack} width="48px" alt='stack'/>
                             </div>
                             <div className="title mt-2">
                                 <p>Invoices paid all at once</p>
