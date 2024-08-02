@@ -41,22 +41,22 @@ const Footer = () => {
                     </div>
                     <div className="footer_menu">
                         <ul className="list list-inline">
-                            <a href="#">
+                            <a href="/overview">
                                 <li className="list-inline-item">Overview</li>
                             </a>
-                            <a href="#">
+                            <a href="/Features">
                                 <li className="list-inline-item">Features</li>
                             </a>
-                            <a href="#">
+                            <a href="/Pricing">
                                 <li className="list-inline-item">Pricing</li>
                             </a>
-                            <a href="#">
+                            <a href="/Career">
                                 <li className="list-inline-item">Careers</li>
                             </a>
-                            <a href="#">
+                            <a href="/help">
                                 <li className="list-inline-item">Help</li>
                             </a>
-                            <a href="#">
+                            <a href="/privacy">
                                 <li className="list-inline-item">Privacy</li>
                             </a>
                         </ul>
@@ -67,9 +67,9 @@ const Footer = () => {
                             <p className="mb-0">© 2024 Subira Pro. All rights reserved.</p>
                         </div>
                         <div className="col-lg-3 col-md-3 social-icon d-flex justify-content-end align-items-center">
-                            <a href="#"><img src={Twitter} width="40px" alt='twitter'/></a>
-                            <a href="#"><img src={Linkedin} width="40px" alt='linkedin'/></a>
-                            <a href="#"><img src={Facebook} width="40px" alt='facebook'/></a>
+                            <a href="/twitter"><img src={Twitter} width="40px" alt='twitter'/></a>
+                            <a href="/linkedin"><img src={Linkedin} width="40px" alt='linkedin'/></a>
+                            <a href="/facebook"><img src={Facebook} width="40px" alt='facebook'/></a>
                         </div>
                     </div>
                 </div>
