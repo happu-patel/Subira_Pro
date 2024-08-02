@@ -135,7 +135,7 @@ const Features = () => {
                                     tablet, and desktop.</p>
                             </div>
                             <div className="fea_button">
-                                <a href="#">Learn more <GoArrowRight className='rightarrow' /></a>
+                                <a href="/learn">Learn more <GoArrowRight className='rightarrow' /></a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12">
@@ -150,7 +150,7 @@ const Features = () => {
                                     real-time alerts when they pay.</p>
                             </div>
                             <div className="fea_button">
-                                <a href="#">Learn more <GoArrowRight className='rightarrow' /></a>
+                                <a href="/learn">Learn more <GoArrowRight className='rightarrow' /></a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12">
@@ -166,7 +166,7 @@ const Features = () => {
                                     your money.</p>
                             </div>
                             <div className="fea_button">
-                                <a href="#">Learn more <GoArrowRight className='rightarrow' /></a>
+                                <a href="/learn">Learn more <GoArrowRight className='rightarrow' /></a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12">
@@ -182,7 +182,7 @@ const Features = () => {
                                     payments.</p>
                             </div>
                             <div className="fea_button pt-2">
-                                <a href="#">Learn more <GoArrowRight className='rightarrow' /></a>
+                                <a href="/learn">Learn more <GoArrowRight className='rightarrow' /></a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12">
@@ -198,7 +198,7 @@ const Features = () => {
                                     hassle free process.</p>
                             </div>
                             <div className="fea_button  pt-2">
-                                <a href="#">Learn more <GoArrowRight className='rightarrow' /></a>
+                                <a href="/learn">Learn more <GoArrowRight className='rightarrow' /></a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12">
