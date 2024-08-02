@@ -193,7 +193,7 @@ const Page2 = () => {
                     <div className="avtar_content">
                         <div className="avtar_group">
                             <div className="avtar1">
-                                <img src={Avtar_group} width="120px" />
+                                <img src={Avtar_group} width="120px" alt='avtar'/>
                             </div>
                         </div>
                         <div className="avtar_heading">
