@@ -214,7 +214,7 @@ const Features = () => {
                                     can keep more.</p>
                             </div>
                             <div className="fea_button  pt-2">
-                                <a href="#">Learn more <GoArrowRight className='rightarrow' /></a>
+                                <a href="/learn">Learn more <GoArrowRight className='rightarrow' /></a>
                             </div>
                         </div>
                     </div>
