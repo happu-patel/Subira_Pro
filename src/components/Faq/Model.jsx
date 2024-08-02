@@ -4,7 +4,7 @@ import './Model.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Modal = ({ showModal, closeModal }) => {
-  // You can customize the modal content as needed
+  
   return (
     <div className={`modal ${showModal ? 'show' : ''}`} id="myModal">
       <div className="modal-dialog modal-lg modal-dialog-centered">
