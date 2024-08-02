@@ -76,14 +76,14 @@ const Page3 = () => {
                 <div className='container'>
                     <div className='fea_content'>
                         <div className='feature_heading'>
-                            <img src={quickIcon} width={'58px'} />
+                            <img src={quickIcon} width={'58px'} alt='quickicon'/>
                             <h2>Generate and send invoices are coming soon...</h2>
                             <p className='subheading'>Our invoicing tool is coming soon! Add products and customers, set tax rates, and customize invoices to match your brand. Save templates in the Dashboard for easy reuse. Stay tuned for the launch!</p>
                         </div>
                     </div>
                     <div className='fea_img'>
-                        <img src={Feature2} className='feature_content' />
-                        <img src={Mobile} className='iphone_img' />
+                        <img src={Feature2} className='feature_content' alt='feature'/>
+                        <img src={Mobile} className='iphone_img' alt='mobile'/>
                     </div>
                 </div>
             </section>
