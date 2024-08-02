@@ -3,7 +3,6 @@ import Home from './Pages/Home/Home';
 import Page3 from './Pages/About/Page3';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import Pricing from './components/Pricing/Pricing';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Page2 from './Pages/Features/Page2';
 function App() {
