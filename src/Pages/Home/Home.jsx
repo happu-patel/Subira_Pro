@@ -26,13 +26,13 @@ const Home = ({ scrollToPricing, scrollToFeature, scrollToServices, scrollToFaq 
     if (scrollToServices) {
       serviceRef.current?.scrollIntoView({ behavior: 'smooth' });
     }
-  })
+  }, [scrollToServices]);
 
   useEffect(() => {
     if (scrollToFaq) {
       faqRef.current?.scrollIntoView({ behavior: 'smooth' });
     }
-  })
+  }, [scrollToFaq]);
 
   return (
     <>
