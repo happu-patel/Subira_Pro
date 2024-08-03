@@ -5,20 +5,20 @@ import './Page2.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CheckIcon from '../../assets/images/Check icon.png';
 import Sign from '../../assets/images/Sign document icon.png';
-import Modal from './Model';
+// import Modal from './Model';
 import Pricing from '../../components/Pricing/Pricing';
 
 const Page2 = () => {
-    const [showModal, setShowModal] = useState(false);
+    // const [showModal, setShowModal] = useState(false);
 
-    const openModal = () => {
-        console.log("open")
-        setShowModal(true);
-    };
+    // const openModal = () => {
+    //     console.log("open")
+    //     setShowModal(true);
+    // };
 
-    const closeModal = () => {
-        setShowModal(false);
-    };
+    // const closeModal = () => {
+    //     setShowModal(false);
+    // };
     return (
         <>
             <div className='container'>
@@ -201,7 +201,7 @@ const Page2 = () => {
                             <p>Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
                         </div>
                         <div className="avtar_button">
-                            <button className="button-avtar" type="button" onClick={openModal} >
+                            <button className="button-avtar" type="button">
                                 Get in touch
                             </button>
 
@@ -209,7 +209,7 @@ const Page2 = () => {
                     </div>
                 </div>
             </section>
-            <Modal showModal={showModal} closeModal={closeModal} />
+{/*             <Modal showModal={showModal} closeModal={closeModal} /> */}
             <Pricing />
         </>
     )
