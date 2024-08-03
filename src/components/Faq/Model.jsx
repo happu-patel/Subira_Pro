@@ -19,7 +19,7 @@ const Modal = ({ showModal, closeModal }) => {
             <h4 className="modal-title">Get in touch</h4>
             <p className='supporting_text'>We’d love to hear from you. Please fill out this form.</p>
           </div>
-          {/* Modal body */}
+      
           <div className="modal-body">
             <form>
               <div className='row'>
