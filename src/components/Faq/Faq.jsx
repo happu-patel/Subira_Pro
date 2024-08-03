@@ -154,8 +154,8 @@ const Faq = () => {
                         </div>
                     </div>
                 </div>
-{/*             </section>
-            <Modal showModal={showModal} closeModal={closeModal} /> */}
+        </section>
+{/*             <Modal showModal={showModal} closeModal={closeModal} /> */} 
         </>
     )
 }
