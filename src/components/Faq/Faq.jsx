@@ -2,20 +2,20 @@ import React, { useState } from 'react';
 import '../../App.css';
 import './Faq.css';
 import Avtar_group from '../../assets/images/Avatar group.png';
-import Modal from './Model';
+// import Modal from './Model';
 
 
 const Faq = () => {
-    const [showModal, setShowModal] = useState(false);
+    // const [showModal, setShowModal] = useState(false);
 
-    const openModal = () => {
-        console.log("open")
-        setShowModal(true);
-    };
+    // const openModal = () => {
+    //     console.log("open")
+    //     setShowModal(true);
+    // };
 
-    const closeModal = () => {
-        setShowModal(false);
-    };
+    // const closeModal = () => {
+    //     setShowModal(false);
+    // };
     return (
         <>
             <section className='faq_section'>
@@ -150,12 +150,12 @@ const Faq = () => {
                             <p>Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
                         </div>
                         <div class="avtar_button">
-                            <button class="button-avtar" onClick={openModal}>Get in touch</button>
+                            <button class="button-avtar">Get in touch</button>
                         </div>
                     </div>
                 </div>
-            </section>
-            <Modal showModal={showModal} closeModal={closeModal} />
+{/*             </section>
+            <Modal showModal={showModal} closeModal={closeModal} /> */}
         </>
     )
 }
