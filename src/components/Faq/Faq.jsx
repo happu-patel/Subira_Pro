@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../../App.css';
 import './Faq.css';
 import Avtar_group from '../../assets/images/Avatar group.png';
-import Modal from '../../Pages/Features/Model';
+import Modal from './Model';
 
 
 const Faq = () => {
