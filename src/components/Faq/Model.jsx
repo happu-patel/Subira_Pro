@@ -7,7 +7,7 @@ const Modal = ({ showModal, closeModal }) => {
   console.log("Modal component, showModal:", showModal);
 
   return (
-    <div ref={modalRef} className={`modal ${showModal ? 'show' : ''}`} id="myModal" style={{ display: showModal ? 'block' : 'none' }}>
+       <div className={`modal fade ${showModal ? 'show d-block' : 'd-none'}`} id="myModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden={!showModal}>
       <div className="modal-dialog modal-lg modal-dialog-centered">
         <div className="modal-content">
           {/* Modal Header */}
