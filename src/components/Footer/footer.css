@@ -30,11 +30,20 @@ footer {
     font-weight: 600;
     margin-right: 10px;
     line-height: 24px;
+    transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease, font-weight 0.3s ease;
 }
 
 .view-btn:hover {
-    border: 1px solid #444892;
-    color: #444892;
+    border-color: #444892 !important;
+    color: #fff !important;
+    background-color: #444892 !important;
+
+}
+
+.view-btn:hover .d-icon {
+    filter: grayscale(0) brightness(0) invert(1) hue-rotate(180deg);
+    transition: filter 0.3s ease;
+    /* Add transition properties */
 }
 
 .f_button {
@@ -52,14 +61,14 @@ footer {
     line-height: 24px;
     background: rgba(67, 72, 151, 1);
     color: #fff;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, font-weight 0.3s ease;
 }
 
 .footer_btn:hover {
 
-    background-color: #fff;
-    border: 1px solid #444892;
-    color: #444892;
-    font-weight: 700;
+    background-color: #f1f1f129;
+    border: 1px solid #34405438;
+    color: #344054 !important;
 
 }
 
@@ -88,7 +97,6 @@ footer {
 
 .list-inline-item:hover {
     color: #444892 !important;
-    font-weight: 700;
 }
 
 .f_text {
@@ -168,7 +176,7 @@ hr {
 }
 
 @media (max-width:400px) {
-  
+
 
     footer {
         padding: 10px 0px;
