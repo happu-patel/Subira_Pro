@@ -7,7 +7,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const Modal = ({ showModal, closeModal }) => {
   // You can customize the modal content as needed
   return (
-    <div className={`modal fade ${showModal ? 'show d-block' : ''}`} id="myModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+       <div className={`modal fade ${showModal ? 'show d-block' : 'd-none'}`} id="myModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden={!showModal}>
       <div className="modal-dialog modal-lg modal-dialog-centered">
         <div className="modal-content">
           {/* Modal Header */}
