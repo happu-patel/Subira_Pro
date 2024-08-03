@@ -1,13 +1,13 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import '../../App.css';
 import './pricing.css';
 import checkIcon from '../../assets/images/Check icon.png';
 import HandArrow from '../../assets/images/Hand-drawn arrow.png';
 
-const Pricing = forwardRef((ref) => {
+const Pricing = () => {
     return (
         <>
-            <section id='pricing' className='pricing_section' ref={ref}>
+            <section id='pricing' className='pricing_section'>
                 <div className="container">
                     <div className="pricing_content">
                         <p className="mb-0">Pricing</p>
@@ -180,6 +180,5 @@ const Pricing = forwardRef((ref) => {
             </section>
         </>
     );
-});
-
-export default Pricing;
+};
+export default Pricing
