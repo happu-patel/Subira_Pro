@@ -4,7 +4,7 @@ import './Model.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Modal = ({ showModal, closeModal }) => {
-  
+
   return (
     <div className={`modal ${showModal ? 'show' : ''}`} id="myModal">
       <div className="modal-dialog modal-lg modal-dialog-centered">
@@ -23,11 +23,11 @@ const Modal = ({ showModal, closeModal }) => {
             <form>
               <div className='row'>
                 <div className='col-lg-6 clo-md-6 col-sm-12'>
-                  <label>First name</label><br/>
+                  <label>First name</label><br />
                   <input type='text' placeholder='First name' />
                 </div>
                 <div className='col-lg-6 clo-md-6 col-sm-12'>
-                  <label>Last name</label><br/>
+                  <label>Last name</label><br />
                   <input type='text' placeholder='Last name' />
                 </div>
                 <div className='col-lg-12 col-md-12 col-sm-12'>
@@ -39,11 +39,9 @@ const Modal = ({ showModal, closeModal }) => {
                   <div className='input-group'>
                     <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Us</button>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="/action">Action</a></li>
-                      <li><a class="dropdown-item" href="/another action">Another action</a></li>
-                      <li><a class="dropdown-item" href="/something">Something else here</a></li>
-                      <li><hr class="dropdown-divider" /></li>
-                      <li><a class="dropdown-item" href="/separated">Separated link</a></li>
+                      <li><a class="dropdown-item" href="/action">India</a></li>
+                      <li><a class="dropdown-item" href="/another action">UK</a></li>
+                      <li><a class="dropdown-item" href="/something">Ny</a></li>
                     </ul>
                     <input type="text" aria-label="Text input with dropdown button" placeholder='+1 (555) 000-0000' />
                   </div>
