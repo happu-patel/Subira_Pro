@@ -36,10 +36,11 @@ const Footer = () => {
                     </div>
                     <hr />
                     <div className="logo_links">
-                        <a href='/'>
+                        <a href="/">
                         <img src={Logo} width="81px" alt='logo'/>
-                        <p>Manage your documents easily!</p>
                         </a>
+                        <p>Manage your documents easily!</p>
+
                     </div>
                     <div className="footer_menu">
                         <ul className="list list-inline">
