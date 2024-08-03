@@ -2,11 +2,12 @@
 import React from 'react';
 import './Model.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const Modal = ({ showModal, closeModal }) => {
   // You can customize the modal content as needed
   return (
-    <div className={`modal ${showModal ? 'show' : ''}`} id="myModal">
+    <div className={`modal fade ${showModal ? 'show d-block' : ''}`} id="myModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div className="modal-dialog modal-lg modal-dialog-centered">
         <div className="modal-content">
           {/* Modal Header */}
