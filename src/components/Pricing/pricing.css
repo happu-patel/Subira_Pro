@@ -131,14 +131,14 @@
     text-align: center;
     color: #fff !important;
     width: 100% !important;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, font-weight 0.3s ease;
 
 }
 
 .btn-primary1:hover {
-    background-color: #fff;
-    border: 1px solid #444892;
-    color: #444892 !important;
-    font-weight: 700;
+    background-color: #f1f1f129;
+    border: 1px solid #34405438;
+    color: #344054 !important;
 }
 
 
