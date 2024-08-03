@@ -209,7 +209,7 @@ const Page2 = () => {
                     </div>
                 </div>
             </section>
-            <Modal showModal={showModal} closeModal={closeModal} />
+            <Modal showModal={openModal} closeModal={closeModal} />
             <Pricing />
         </>
     )
