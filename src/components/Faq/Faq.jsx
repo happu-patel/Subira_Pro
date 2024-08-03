@@ -142,7 +142,7 @@ const Faq = () => {
                     <div class="avtar_content">
                         <div class="avtar_group">
                             <div class="avtar1">
-                                <img src={Avtar_group} width="120px" alt='avtar'/>
+                                <img src={Avtar_group} width="120px" alt='avtar' />
                             </div>
                         </div>
                         <div class="avtar_heading">
