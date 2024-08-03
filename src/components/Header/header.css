@@ -104,11 +104,6 @@ li {
     margin-right: 10px;
 }
 
-.demo-btn:hover {
-    border-color: #444892 !important;
-    color: #444892 !important;
-    font-weight: 700 !important;
-}
 
 .d-icon {
     font-size: 25px;
@@ -116,7 +111,7 @@ li {
 }
 
 .sign-btn {
-    Padding: 12px 25px 12px 25px;
+    padding: 12px 25px;
     background-color: rgba(68, 72, 146, 1);
     border: 1px solid rgba(68, 72, 146, 1);
     border-radius: 8px;
@@ -124,14 +119,38 @@ li {
     line-height: 28px;
     font-weight: 600;
     font-family: "Inter", sans-serif;
-    color: #ffff;
+    color: #fff;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, font-weight 0.3s ease;
+    /* Add transition properties */
 }
 
 .sign-btn:hover {
-    background-color: #fff;
-    border: 1px solid #444892;
-    color: #444892;
-    font-weight: 700;
+    background-color: #f1f1f129;
+    border: 1px solid #34405438;
+    color: #344054 !important;
+    font-weight: 600;
+}
+
+.demo-btn {
+    border-color: rgba(68, 72, 146, 1);
+    color: #fff;
+    background-color: rgba(68, 72, 146, 1);
+
+    transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease, font-weight 0.3s ease;
+    /* Add transition properties */
+}
+
+.demo-btn:hover {
+    border-color: #444892 !important;
+    color: #fff !important;
+    background-color: #444892 !important;
+
+}
+
+.demo-btn:hover .d-icon {
+    filter: grayscale(0) brightness(0) invert(1) hue-rotate(180deg);
+    transition: filter 0.3s ease;
+    /* Add transition properties */
 }
 
 .macBook {
@@ -352,6 +371,10 @@ li {
     .header-content p {
         line-height: 16px;
         font-size: 11px;
+    }
+
+    .nav-link {
+        margin: auto;
     }
 }
 
