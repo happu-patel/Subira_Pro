@@ -84,7 +84,7 @@
 
 .sign {
     position: relative;
-    padding: 100px 0px;
+    padding: 185px 0px 70px 0px;
 }
 
 .sign::before {
@@ -95,8 +95,8 @@
     background-size: cover;
     content: '';
     width: 100vh;
-    height: 87%;
-    top: 10%;
+    height: 77%;
+    top: 20%;
     left: 0;
     box-shadow: 0px 32px 64px -12px rgba(16, 24, 40, 0.14);
 }
@@ -710,7 +710,7 @@
         padding-bottom: 8px !important;
     }
 
-    
+
 }
 
 @media (max-width:400px) {
