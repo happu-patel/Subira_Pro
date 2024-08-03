@@ -20,7 +20,16 @@ const Modal = ({ showModal, closeModal }) => {
             <p className='supporting_text'>We’d love to hear from you. Please fill out this form.</p>
           </div>
           {/* Modal body */}
-          
+          <div className="modal-body">
+            <form>
+              <div className='row'>
+                <div className='col-lg-6 clo-md-6 col-sm-12'>
+                  <label>First name</label><br/>
+                  <input type='text' placeholder='First name' />
+                </div>
+                </div>
+              </form>
+          </div>
         </div>
       </div>
     </div>
