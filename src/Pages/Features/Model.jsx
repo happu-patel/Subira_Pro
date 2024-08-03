@@ -1,12 +1,13 @@
-// Modal.js
-import React from 'react';
+import React, { useRef } from 'react';
 import './Model.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Modal = ({ showModal, closeModal }) => {
-  // You can customize the modal content as needed
+  const modalRef = useRef();
+  console.log("Modal component, showModal:", showModal);
+
   return (
-    <div className={`modal ${showModal ? 'show' : ''}`} id="myModal">
+    <div ref={modalRef} className={`modal ${showModal ? 'show' : ''}`} id="myModal" style={{ display: showModal ? 'block' : 'none' }}>
       <div className="modal-dialog modal-lg modal-dialog-centered">
         <div className="modal-content">
           {/* Modal Header */}
@@ -22,28 +23,26 @@ const Modal = ({ showModal, closeModal }) => {
           <div className="modal-body">
             <form>
               <div className='row'>
-                <div className='col-lg-6 clo-md-6 col-sm-12'>
-                  <label>First name</label><br/>
+                <div className='col-lg-6 col-md-6 col-sm-12'>
+                  <label>First name</label><br />
                   <input type='text' placeholder='First name' />
                 </div>
-                <div className='col-lg-6 clo-md-6 col-sm-12'>
-                  <label>Last name</label><br/>
+                <div className='col-lg-6 col-md-6 col-sm-12'>
+                  <label>Last name</label><br />
                   <input type='text' placeholder='Last name' />
                 </div>
                 <div className='col-lg-12 col-md-12 col-sm-12'>
                   <label>Email</label><br />
-                  <input type='mail' placeholder='you@company.com' className='mail' />
+                  <input type='email' placeholder='you@company.com' className='mail' />
                 </div>
                 <div className='col-lg-12 col-md-12 col-sm-12 phone'>
                   <label>Phone number</label><br />
                   <div className='input-group'>
-                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Us</button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="/action">Action</a></li>
-                      <li><a class="dropdown-item" href="/another">Another action</a></li>
-                      <li><a class="dropdown-item" href=".something">Something else here</a></li>
-                      <li><hr class="dropdown-divider" /></li>
-                      <li><a class="dropdown-item" href="/separated">Separated link</a></li>
+                    <button className="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Us</button>
+                    <ul className="dropdown-menu">
+                      <li><a className="dropdown-item" href="/action">India</a></li>
+                      <li><a className="dropdown-item" href="/another action">UK</a></li>
+                      <li><a className="dropdown-item" href="/something">Ny</a></li>
                     </ul>
                     <input type="text" aria-label="Text input with dropdown button" placeholder='+1 (555) 000-0000' />
                   </div>
