@@ -155,7 +155,7 @@ const Faq = () => {
                     </div>
                 </div>
             </section>
-            <Modal showModal={showModal} closeModal={closeModal} />
+            <Modal showModal={openModal} closeModal={closeModal} />
         </>
     )
 }
