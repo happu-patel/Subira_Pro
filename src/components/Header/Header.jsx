@@ -50,17 +50,12 @@ const Header = ({ scrollToPricing, scrollToFeature, scrollToServices, scrollToFa
                                     Home
                                 </Link>
                             </li>
-
-                            <li className="nav-item">
-                                <button className="nav-link" onClick={handlePricingClick}>
-                                    Pricing
-                                </button>
-                            </li>
                             <li className="nav-item">
                                 <button className="nav-link" onClick={handleFeatureClick}>
                                     Features
                                 </button>
                             </li>
+
                             <li className="nav-item">
                                 <button className="nav-link" onClick={handleServicesClick}>
                                     Services
@@ -69,6 +64,11 @@ const Header = ({ scrollToPricing, scrollToFeature, scrollToServices, scrollToFa
                             <li className="nav-item">
                                 <button className="nav-link" onClick={handleFaqClick}>
                                     Faq
+                                </button>
+                            </li>
+                            <li className="nav-item">
+                                <button className="nav-link" onClick={handlePricingClick}>
+                                    Pricing
                                 </button>
                             </li>
                         </ul>
