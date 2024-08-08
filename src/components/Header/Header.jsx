@@ -8,6 +8,7 @@ import Logo from '../../assets/images/Mask group.png';
 import PlayCircle from '../../assets/images/play-circle.png';
 import MacBook from '../../assets/images/MacBook Pro 16.png';
 import MacBookContent from '../../assets/images/Image1.png';
+
 const Header = ({ scrollToPricing, scrollToFeature, scrollToServices, scrollToFaq }) => {
     const handlePricingClick = () => {
         scrollToPricing();
@@ -27,7 +28,7 @@ const Header = ({ scrollToPricing, scrollToFeature, scrollToServices, scrollToFa
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg align-items-center">
+            <nav className="navbar navbar-expand-lg align-items-center sticky-header">
                 <div className="container">
                     <a className="navbar-brand" href="/">
                         <img src={Logo} width={'106px'} alt='logo' />
@@ -44,7 +45,7 @@ const Header = ({ scrollToPricing, scrollToFeature, scrollToServices, scrollToFa
                         <span className="navbar-toggler-icon" />
                     </button>
                     <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <ul className="navbar-nav  mb-2 mb-lg-0">
+                        <ul className="navbar-nav mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <Link className="nav-link" aria-current="page" to="/">
                                     Home
@@ -55,7 +56,6 @@ const Header = ({ scrollToPricing, scrollToFeature, scrollToServices, scrollToFa
                                     Features
                                 </button>
                             </li>
-
                             <li className="nav-item">
                                 <button className="nav-link" onClick={handleServicesClick}>
                                     Services
