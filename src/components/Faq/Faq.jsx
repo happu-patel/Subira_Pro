@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../../App.css';
 import './Faq.css';
 import Avtar_group from '../../assets/images/Avatar group.png';
@@ -6,16 +6,7 @@ import Avtar_group from '../../assets/images/Avatar group.png';
 
 
 const Faq = () => {
-    // const [showModal, setShowModal] = useState(false);
-
-    // const openModal = () => {
-    //     console.log("open")
-    //     setShowModal(true);
-    // };
-
-    // const closeModal = () => {
-    //     setShowModal(false);
-    // };
+   
     return (
         <>
             <section className='faq_section'>
