@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -40,14 +40,15 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-transform-private-property-in-object": "^7.24.7"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@types/bootstrap": "^5.2.10"
   },
   "babel": {
     "presets": [
       "react-app"
     ],
     "plugins": [
-      "@babel/plugin-transform-private-property-in-object"
+      "@babel/plugin-proposal-private-property-in-object"
     ]
   }
 }
