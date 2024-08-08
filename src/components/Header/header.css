@@ -29,6 +29,15 @@ li {
     color: #444892 !important;
 }
 
+.sticky-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .btn-login {
     font-family: "Inter", sans-serif;
     font-weight: 600;
